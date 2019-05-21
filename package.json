@@ -1,0 +1,20 @@
+{
+  "name": "react-audit",
+  "version": "1.0.0",
+  "description": "A CLI to improve your React application",
+  "main": "lib/index.js",
+  "bin": {
+    "react-audit": "bin/react-audit"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "react-audit"
+  ],
+  "author": "Jamie Allen",
+  "license": "MIT",
+  "dependencies": {
+    "esm": "^3.2.25"
+  }
+}
