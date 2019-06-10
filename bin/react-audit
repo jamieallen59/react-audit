@@ -1,0 +1,4 @@
+#!/usr/bin/env node
+
+require = require('esm')(module /*, options*/)// eslint-disable-line
+require('../lib').runReactAudit(process.argv)
